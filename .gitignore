@@ -39,3 +39,4 @@ deployment_keys.pub
 
 # Environment variables
 .env
+.vercel
