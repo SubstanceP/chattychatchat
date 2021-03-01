@@ -43,9 +43,9 @@ const colors = {
   error: "#B63133",
   success: "#62E905",
   inactive: "#F5A623",
-  primary: ["#8E2DE2", "#4A00E0"],
-  neutral: ["#FFFFFF", "#F8F6FD", "#F1EDFD", "#9B9B9B", "#585858"],
-  avatars: ["#F7861C", "#35B7DF", "#DE2440", "#1F68EF", "#9F34C3"]
+  primary: ["#006a96", "#182B49"],
+  neutral: ["#FFFFFF", "#F8F6FD", "#f9f5ff", "#9B9B9B", "#585858"],
+  avatars: ["#00C6D7", "#F3E500", "#FC8900", "#6E963B", "#9F34C3"]
 } as const;
 
 const backgrounds = {
@@ -126,8 +126,8 @@ const shadows = [
 // Custom
 const custom = {
   dark: false,
-  companyName: "PubNub",
-  tagLine: "World-Class APIs for In-App Chat"
+  companyName: "UCSD",
+  tagLine: "University of California, San Diego"
 } as const;
 
 // Exports

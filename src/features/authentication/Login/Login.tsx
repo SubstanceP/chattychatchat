@@ -1,13 +1,13 @@
 import React, { useState, useContext } from "react";
 import { useDispatch } from "main/useDispatch";
-import image from "./background.png";
+import image from "./background_solidblue.png";
 import logo from "./logo.svg";
 import { login } from "../loginCommand";
 import { isLoggingIn } from "../authenticationModel";
 import { isUserLoggedIn } from "features/authentication/authenticationModel";
 import { useSelector } from "react-redux";
 import KnownIds from "config/knownUserIds.json";
-import screenshot from "./screenshot.png";
+//import screenshot from "./screenshot.png";
 import { getUsersById } from "features/users/userModel";
 import { ThemeContext } from "styled-components";
 import { FlexRow, FlexColumn, StyledBox } from "foundations/components/layout";
@@ -31,6 +31,7 @@ const Login = () => {
   // show the username in the email field
   const usersById = useSelector(getUsersById);
   const [userId, setUserId] = useState("");
+  // eslint-disable-next-line
   const user = usersById[userId];
 
   const loginWithRandomlyPickedUser = () => {
@@ -43,32 +44,33 @@ const Login = () => {
   };
 
   if (!loggedIn && !loggingIn) {
-    loginWithRandomlyPickedUser();
+    //stops autologin
+    //loginWithRandomlyPickedUser();
   }
 
   const renderForm = () => (
     <FlexColumn>
       <StyledBox
-        height="30px"
+        height="100px"
         backgroundImage={`url(${logo})`}
         backgroundRepeat="no-repeat"
         backgroundPosition="center"
       />
       <StyledBox paddingTop="6" paddingBottom="1">
-        <Label variant={LabelVariants.DARK}>Username</Label>
+        <Label variant={LabelVariants.DARK}>UCSD Email or PID</Label>
       </StyledBox>
       <Input
-        readOnly
-        value={user ? user.name.toLowerCase().replace(" ", ".") : ""}
+        //readOnly
+        //value={user}
         variant={InputVariants.DARK}
       />
       <StyledBox paddingTop="6" paddingBottom="1">
         <Label variant={LabelVariants.DARK}>Password</Label>
       </StyledBox>
       <Input
-        readOnly
+        //readOnly
         type="password"
-        value={"password123"}
+        //value={"password123"}
         variant={InputVariants.DARK}
       />
 
@@ -111,7 +113,7 @@ const Login = () => {
             </Heading>
           </StyledBox>
           <FlexRow justifyContent="center">
-            <img alt="pubnub chat screenshot" src={screenshot} />
+            {/* <img alt="pubnub chat screenshot" src={screenshot} /> */}
           </FlexRow>
         </FlexColumn>
 
