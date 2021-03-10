@@ -1,7 +1,7 @@
 import React, { useState, useContext } from "react";
 import { useDispatch } from "main/useDispatch";
 import image from "./background_solidblue.png";
-import logo from "./logo.svg";
+import logo from "./logo_login.svg";
 import { login } from "../loginCommand";
 import { isLoggingIn } from "../authenticationModel";
 import { isUserLoggedIn } from "features/authentication/authenticationModel";

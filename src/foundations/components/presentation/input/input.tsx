@@ -13,7 +13,7 @@ export interface InputProps {
 
 const DarkInput = css`
   background: ${p => p.theme.backgrounds.content};
-  border: ${p => p.theme.borders.light};
+  border: ${p => p.theme.borders.dark};
 `;
 
 const AttributionInput = css<InputProps>`

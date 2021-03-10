@@ -4,6 +4,10 @@ import { getLoggedInUserId } from "features/authentication/authenticationModel";
 import { getUsersById } from "features/users/userModel";
 import { AppState } from "main/storeTypes";
 import {
+  Avatar,
+  AvatarVariants
+} from "foundations/components/chat/avatar/avatar";
+import {
   Label,
   LabelVariants,
   Icon,
@@ -34,15 +38,21 @@ const MyUserDetails = () => {
 
   return (
     <FlexRow>
-      <Label variant={LabelVariants.INVERSE}>{user.name}</Label>
-
       <StyledBox marginLeft={1}>
+        <Avatar variant={AvatarVariants.ROUND}></Avatar>
         <Icon
           icon={Icons.Presence}
           title={isConnected ? "connected" : "not connected"}
           color={isConnected ? "success" : "inactive"}
         />
       </StyledBox>
+      {/*<StyledBox marginLeft={1}>
+        <Icon
+          icon={Icons.Presence}
+          title={isConnected ? "connected" : "not connected"}
+          color={isConnected ? "success" : "inactive"}
+        />
+      </StyledBox>*/}
     </FlexRow>
   );
 };
