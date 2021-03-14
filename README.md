@@ -10,7 +10,6 @@ This application's stack consists of:
 - React
 - Redux
 
-
 ## Demo ##
 
 https://ucsdchat.vercel.app/

@@ -13,7 +13,11 @@ interface ButtonProps extends BorderProps {
 }
 
 const PrimaryButton = css`
-  background: linear-gradient(155deg, #e12a66 0%, #5c0ce1 100%);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 106, 150, 1) 20%,
+    rgba(255, 205, 0, 1) 83%
+  );
   border-radius: ${p => p.theme.radii.light};
   color: ${p => p.theme.colors.activeText};
   font-size: 14px;

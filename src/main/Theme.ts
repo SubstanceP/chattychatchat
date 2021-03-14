@@ -50,8 +50,7 @@ const colors = {
 
 const backgrounds = {
   primary: `linear-gradient(180deg, ${colors.primary[0]} 0%, ${colors.primary[1]} 100%)`,
-  login:
-    "linear-gradient(180deg, rgba(240, 42, 42, 0.670214) 0%, rgba(138, 42, 225, 0.55153) 100%)",
+  login: "linear-gradient(0deg, rgba(0,106,150,1) 20%, rgba(255,205,0,1) 83%)",
   primaryHover: "rgba(255, 255, 255, 0.1)",
   primaryActive: "rgba(0, 0, 0, 0.1)",
   panel: colors.neutral[0],

@@ -112,7 +112,13 @@ const Login = () => {
               {theme.custom.tagLine}
             </Heading>
           </StyledBox>
-          <FlexRow justifyContent="center">
+          <FlexRow
+            justifyContent="center"
+            borderRadius={["square", "strong", "strong"]}
+            borderTopLeftRadius={["square", "strong", "square"]}
+            borderBottomLeftRadius={["square", "strong", "square"]}
+            borderColor="white"
+          >
             {/* <img alt="pubnub chat screenshot" src={screenshot} /> */}
           </FlexRow>
         </FlexColumn>

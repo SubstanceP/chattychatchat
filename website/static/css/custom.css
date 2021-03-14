@@ -5,7 +5,31 @@
  * LICENSE file in the root directory of this source tree.
  */
  
-/* your custom css */
+ .heading__Heading-bhpkrt-0 .dRtZoP {
+   color: red !important;
+ }
+ 
+ 
+ /**.styled-box__StyledBox-vdg6bx-0 .flex-column__FlexColumn-sc-3yt8wi-0jGBRBl 
+ {
+  "justifyContent": "flex-end",
+  "display": [
+    "none",
+    "none",
+    "flex"
+  ],
+  "background": "linear-gradient(0deg, rgba(0,106,150,1) 20%, rgba(255,205,0,1) 83%);",
+  "borderTopLeftRadius": "strong",
+  "borderBottomLeftRadius": "strong",
+  "maxWidth": "360px",
+  "children": [
+    "<ForwardRef />",
+    "<ForwardRef />"
+  ],
+  "border-bottom": "1px solid black",
+  "borderBottom": "2px solid white",
+  "border": "2px solid white"
+}**/
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }

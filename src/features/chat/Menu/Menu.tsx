@@ -47,8 +47,8 @@ const Menu = () => {
 
       <StyledBox padding={6}>
         <FlexRow>
-          <Icon icon={Icons.Logo} title="PubNub" />
-          <StyledBox paddingLeft={4}>
+          {/**<Icon icon={Icons.Logo} title="PubNub" />**/}
+          <StyledBox paddingLeft={0}>
             <FlexColumn minHeight={1}>
               <Heading variant={HeadingVariants.INVERSE}>
                 {theme.custom.companyName}
