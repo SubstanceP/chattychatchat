@@ -804,9 +804,14 @@
 
   "spaces": [
     {
-      "name": "COSG125",
-      "description": "Advanced Interaction Design (Klemmer)",
+      "name": "General Chatt",
+      "description": "General App Discussion",
       "id": "space_ac4e67b98b34b44c4a39466e93e"
+    },
+    {
+      "name": "Peer Support",
+      "description": "Channel Designated to Address Mental Health and Build Relationships via Supporting Others",
+      "id": "space_c1ee1eda28554d0a34f9b9df5cfe"
     },
     {
       "name": "COGS101A",
@@ -824,13 +829,8 @@
       "id": "space_a652eb6cc340334ff0b244c4a39"
     },
     {
-      "name": "COGS128",
-      "description": "Information Visualization (Scott)",
-      "id": "space_c1ee1eda28554d0a34f9b9df5cfe"
-    },
-    {
-      "name": "COGS101C",
-      "description": "Language (Davis)",
+      "name": "Technical Support",
+      "description": "Ask Techical Questions Regarding the App here",
       "id": "space_2ada61db17878cd388f95da34f9"
     },
     {
