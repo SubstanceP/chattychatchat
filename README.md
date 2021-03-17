@@ -1,7 +1,7 @@
 # "nexucsd" team chat app for students
 
 *Built from PubNub Team Chat React/Redux starter template*
-*[PubNub Chat](https://www.pubnub.com/docs/chat/quickstart)*
+*[PubNub Chat](https://github.com/pubnub/typescript-ref-app-team-chat)*
 
 This application's stack consists of:
 
